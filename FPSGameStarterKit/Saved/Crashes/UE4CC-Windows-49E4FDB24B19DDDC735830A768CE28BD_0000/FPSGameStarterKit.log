@@ -1,0 +1,1738 @@
+﻿Log file open, 09/16/20 20:16:24
+LogInit: Display: Running engine for game: FPSGameStarterKit
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.247753
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: Null
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [Null]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 1600 Six-Core Processor            , GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=ImStones -epicuserid=c80c68bf28e34670980a574cfda5b45d -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Engine.ini]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Engine.ini]
+[2020.09.17-00.16.25:039][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Engine.ini]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Engine.ini]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.17-00.16.25:039][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.17-00.16.25:040][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.17-00.16.25:040][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.17-00.16.25:040][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.17-00.16.25:040][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Engine.ini]
+[2020.09.17-00.16.25:040][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Engine.ini]
+[2020.09.17-00.16.25:043][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.17-00.16.25:043][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.17-00.16.25:044][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.17-00.16.25:044][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.17-00.16.25:044][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.17-00.16.25:045][  0]LogHAL: Display: Platform has ~ 8 GB [8538947584 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.17-00.16.25:045][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.17-00.16.25:045][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.17-00.16.25:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Scalability.ini]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.17-00.16.25:046][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.17-00.16.25:047][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.17-00.16.25:047][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.17-00.16.25:047][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.17-00.16.25:047][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Config/Windows/Engine.ini]
+[2020.09.17-00.16.25:047][  0]LogInit: Computer: DESKTOP-8UD08F3
+[2020.09.17-00.16.25:047][  0]LogInit: User: qwert
+[2020.09.17-00.16.25:047][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.17-00.16.25:047][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.17-00.16.25:047][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.09.17-00.16.25:047][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.17-00.16.25:047][  0]LogMemory: Process Physical Memory: 117.39 MB used, 117.39 MB peak
+[2020.09.17-00.16.25:047][  0]LogMemory: Process Virtual Memory: 97.15 MB used, 97.15 MB peak
+[2020.09.17-00.16.25:047][  0]LogMemory: Physical Memory: 7006.95 MB used,  1136.43 MB free, 8143.38 MB total
+[2020.09.17-00.16.25:047][  0]LogMemory: Virtual Memory: 5165.45 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.09.17-00.16.25:054][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.17-00.16.25:097][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.17-00.16.25:098][  0]LogInit: Using OS detected language (en-US).
+[2020.09.17-00.16.25:098][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.17-00.16.25:103][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.17-00.16.25:356][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.17-00.16.25:406][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.17-00.16.25:406][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.17-00.16.25:607][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.17-00.16.25:607][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.17-00.16.25:607][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.17-00.16.25:607][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.17-00.16.25:697][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.09.17-00.16.25:697][  0]LogD3D11RHI:       6052/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.17-00.16.25:701][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.17-00.16.25:701][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.17-00.16.25:701][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.17-00.16.25:713][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.17-00.16.25:713][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.17-00.16.25:713][  0]LogWindows: EnumDisplayDevices:
+[2020.09.17-00.16.25:713][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.09.17-00.16.25:713][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.17-00.16.25:713][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.17-00.16.25:714][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.17-00.16.25:714][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.17-00.16.25:714][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.09.17-00.16.25:714][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.09.17-00.16.25:714][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.09.17-00.16.25:714][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.09.17-00.16.25:777][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.17-00.16.25:779][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.17-00.16.25:779][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.17-00.16.25:779][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.17-00.16.25:797][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.17-00.16.26:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.17-00.16.26:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.17-00.16.26:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.17-00.16.26:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.17-00.16.26:280][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.17-00.16.26:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.17-00.16.26:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.17-00.16.26:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.17-00.16.26:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.17-00.16.26:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.17-00.16.26:368][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.17-00.16.26:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.17-00.16.26:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.17-00.16.26:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.17-00.16.26:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.17-00.16.26:451][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.17-00.16.26:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.17-00.16.26:488][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.17-00.16.26:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.17-00.16.26:505][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.17-00.16.26:517][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.17-00.16.26:607][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Intermediate/Shaders/WorkingDirectory/4816/).
+[2020.09.17-00.16.26:607][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/qwert/AppData/Local/Temp/UnrealShaderWorkingDir/785C719F49010A68BB8E5784033F3CD5/'.
+[2020.09.17-00.16.26:608][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.17-00.16.26:608][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.17-00.16.26:608][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.17-00.16.27:586][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.17-00.16.27:668][  0]LogDerivedDataCache: Loaded boot cache 0.08s 77MB C:/Users/qwert/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.17-00.16.27:668][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/qwert/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.17-00.16.27:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.17-00.16.27:668][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.17-00.16.27:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.17-00.16.27:669][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.17-00.16.27:686][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.17-00.16.27:686][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.17-00.16.27:686][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.17-00.16.27:688][  0]LogDerivedDataCache: Using Local data cache path C:/Users/qwert/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.17-00.16.27:689][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.17-00.16.27:689][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.17-00.16.27:755][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.17-00.16.27:756][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.17-00.16.27:790][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2020.09.17-00.16.28:094][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.17-00.16.28:237][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.17-00.16.28:237][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.17-00.16.28:237][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.17-00.16.28:237][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.17-00.16.28:237][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.17-00.16.28:260][  0]LogNetVersion: FPSGameStarterKit 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3513021984)
+[2020.09.17-00.16.28:889][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000267BC734100), frame # 0
+[2020.09.17-00.16.28:889][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000267BC675E40), frame # 0
+[2020.09.17-00.16.28:891][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000267BC6BE000), frame # 0
+[2020.09.17-00.16.28:972][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.072997 seconds
+[2020.09.17-00.16.28:979][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.17-00.16.28:979][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.17-00.16.28:979][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.17-00.16.29:449][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.17-00.16.29:507][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.17-00.16.29:620][  0]SourceControl: Source control is disabled
+[2020.09.17-00.16.29:620][  0]SourceControl: Source control is disabled
+[2020.09.17-00.16.29:626][  0]SourceControl: Source control is disabled
+[2020.09.17-00.16.29:630][  0]SourceControl: Source control is disabled
+[2020.09.17-00.16.29:639][  0]SourceControl: Source control is disabled
+[2020.09.17-00.16.30:016][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.17-00.16.30:046][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.17-00.16.30:046][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.17-00.16.30:113][  0]LogOcInput: OculusInput pre-init called
+[2020.09.17-00.16.30:128][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.17-00.16.30:128][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.17-00.16.30:210][  0]LogEngine: Initializing Engine...
+[2020.09.17-00.16.30:213][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.17-00.16.30:213][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.17-00.16.30:215][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.17-00.16.30:399][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.17-00.16.30:416][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.17-00.16.30:416][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000267C4E30800), frame # 0
+[2020.09.17-00.16.30:416][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000267C4E39D00), frame # 0
+[2020.09.17-00.16.30:587][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.17-00.16.30:587][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.17-00.16.30:587][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.17-00.16.30:587][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.17-00.16.30:587][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.17-00.16.30:587][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.17-00.16.30:587][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.17-00.16.30:587][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.17-00.16.30:588][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.17-00.16.30:588][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.17-00.16.30:607][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.17-00.16.30:608][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.17-00.16.30:704][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.17-00.16.30:709][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.17-00.16.30:713][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.17-00.16.30:714][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.17-00.16.30:716][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.17-00.16.30:718][  0]LogInit: FAudioDevice initialized.
+[2020.09.17-00.16.30:719][  0]LogNetVersion: Set ProjectVersion to 2.3.0.25. Version Checksum will be recalculated on next use.
+[2020.09.17-00.16.30:853][  0]LogDerivedDataCache: Saved boot cache 0.13s 75MB C:/Users/qwert/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.17-00.16.30:860][  0]LogInit: Texture streaming: Enabled
+[2020.09.17-00.16.30:889][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.17-00.16.30:889][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.17-00.16.30:890][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.17-00.16.30:924][  0]LogInit: Transaction tracking system initialized
+[2020.09.17-00.16.30:955][  0]BlueprintLog: New page: Editor Load
+[2020.09.17-00.16.31:075][  0]LocalizationService: Localization service is disabled
+[2020.09.17-00.16.31:355][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.17-00.16.31:355][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.17-00.16.31:546][  0]LogFileCache: Scanning file cache for directory 'C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Content/' took 0.01s
+[2020.09.17-00.16.31:790][  0]SourceControl: Source control is disabled
+[2020.09.17-00.16.31:790][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.804
+[2020.09.17-00.16.31:790][  0]Cmd: MAP LOAD FILE="../../../../../../Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Content/FPS_Game/Maps/Testing.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.17-00.16.31:790][  0]LightingResults: New page: Lighting Build
+[2020.09.17-00.16.31:791][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.17-00.16.31:791][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.17-00.16.31:791][  0]MapCheck: New page: Map Check
+[2020.09.17-00.16.31:791][  0]LightingResults: New page: Lighting Build
+[2020.09.17-00.16.31:806][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000267C4E30800), frame # 0
+[2020.09.17-00.16.31:806][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000267C4E39D00), frame # 0
+[2020.09.17-00.16.31:807][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.09.17-00.16.41:049][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.17-00.16.41:271][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.17-00.16.41:281][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.17-00.16.41:573][  0]LogTexture: Display: Building textures: T_bullet_hole_2 (AutoDXT, 512X512)
+[2020.09.17-00.16.41:573][  0]LogTexture: Display: Building textures: T_BlankTexture (BGRA8, 32X32)
+[2020.09.17-00.16.41:573][  0]LogTexture: Display: Building textures: T_Water_Ripple_Directional_Noise (BC5, 128X128)
+[2020.09.17-00.16.41:573][  0]LogTexture: Display: Building textures: T_UE4_Mannequin (AutoDXT, 128X128)
+[2020.09.17-00.16.41:573][  0]LogTexture: Display: Building textures: T_Caustics_3 (AutoDXT, 512X512)
+[2020.09.17-00.16.41:573][  0]LogTexture: Display: Building textures: T_MapReplicated (AutoDXT, 284X284)
+[2020.09.17-00.16.41:573][  0]LogTexture: Display: Building textures: T_UI_Border_02 (BGRA8, 256X64)
+[2020.09.17-00.16.41:573][  0]LogTexture: Display: Building textures: T_Crosshair_Up (BGRA8, 8X25)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Crosshair_Right (BGRA8, 25X8)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Crosshair_Left (BGRA8, 26X8)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Crosshair_Down (BGRA8, 8X24)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Crosshair_Dot (BGRA8, 7X7)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_HitIndicatorR (BGRA8, 515X1299)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_HitIndicatorB (BGRA8, 1453X399)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Foam_D (AutoDXT, 1024X1024)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_HitIndicatorF (BGRA8, 1453X399)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_HitIndicatorL (BGRA8, 507X1274)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_LoadingFrame (BGRA8, 1920X1080)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_ML_FineRubber (AutoDXT, 2048X2048)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_DecalShadow (AutoDXT, 256X256)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Crosshair_Full (BGRA8, 69X68)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Inventory_Launcher (BGRA8, 120X50)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Scope_Nec (BGRA8, 1920X1080)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: MagGun_02_N (BC5, 4096X4096)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: MagGun_01_N (BC5, 4096X4096)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Coil (DXT1, 512X512)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_FX_RoilingFlameModulate (AutoDXT, 512X512)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_UI_Border_01 (BGRA8, 256X256)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_Background (BGRA8, 1920X1080)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: T_EFX_Energy_Loop_Free (AutoDXT, 512X512)
+[2020.09.17-00.16.41:574][  0]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2020.09.17-00.16.41:576][  0]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2020.09.17-00.16.41:576][  0]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2020.09.17-00.16.41:576][  0]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2020.09.17-00.16.41:576][  0]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2020.09.17-00.16.41:576][  0]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.09.17-00.16.41:577][  0]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2020.09.17-00.16.41:577][  0]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2020.09.17-00.16.41:577][  0]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2020.09.17-00.16.41:577][  0]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2020.09.17-00.16.41:577][  0]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2020.09.17-00.16.41:577][  0]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2020.09.17-00.16.41:577][  0]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2020.09.17-00.16.41:578][  0]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2020.09.17-00.16.41:578][  0]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2020.09.17-00.16.41:578][  0]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 64X64)
+[2020.09.17-00.16.41:579][  0]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2020.09.17-00.16.41:580][  0]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 64X64)
+[2020.09.17-00.16.41:581][  0]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 64X64)
+[2020.09.17-00.16.41:581][  0]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2020.09.17-00.16.41:584][  0]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2020.09.17-00.16.41:584][  0]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 64X64)
+[2020.09.17-00.16.41:584][  0]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: T_explo_SubUV (AutoDXT, 2048X2048)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.17-00.16.41:585][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.17-00.16.41:585][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.09.17-00.16.41:585][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.09.17-00.16.42:742][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_Inventory_Sniper (BGRA8, 120X50)
+[2020.09.17-00.16.42:742][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_Inventory_Laser (BGRA8, 120X50)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_Inventory_Shotgun (BGRA8, 120X50)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_bullet_hole_2_normal (BC5, 512X512)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_Inventory__Rifle (BGRA8, 120X50)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_Inventory_Pistol_Auto (BGRA8, 120X50)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_Inventory_Pistol (BGRA8, 120X50)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_Inventory_Melee (BGRA8, 120X50)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_Inventory_HP (BGRA8, 120X50)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_EFX_Energy_Arc_SubUV (AutoDXT, 1024X512)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_Ring (AutoDXT, 512X512)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: T_LargeWaves_H (G8, 1024X1024)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:742][  0]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2020.09.17-00.16.42:743][  0]LogTexture: Display: Building textures: T_blood_various_N (BC5, 2048X2048)
+[2020.09.17-00.16.43:849][  0]LogTexture: Display: Building textures: T_Barrel_D (AutoDXT, 2048X2048)
+[2020.09.17-00.16.43:849][  0]LogTexture: Display: Building textures: T_SquareMaskTightEdge (AutoDXT, 512X512)
+[2020.09.17-00.16.43:849][  0]LogTexture: Display: Building textures: T_Lensflare_01 (AutoDXT, 512X512)
+[2020.09.17-00.16.43:849][  0]LogTexture: Display: Building textures: T_TileNoise (AutoDXT, 2048X2048)
+[2020.09.17-00.16.43:849][  0]LogTexture: Display: Building textures: T_Flare_02 (BGRA8, 1024X1024)
+[2020.09.17-00.16.43:849][  0]LogTexture: Display: Building textures: T_SmokeBall_01_8_8 (AutoDXT, 1024X1024)
+[2020.09.17-00.16.43:849][  0]LogTexture: Display: Building textures: T_Clouds_01 (AutoDXT, 1024X1024)
+[2020.09.17-00.16.43:849][  0]LogTexture: Display: Building textures: T_Steam_02_Packed (AutoDXT, 2048X2048)
+[2020.09.17-00.16.43:990][  0]LogTexture: Display: Building textures: T_blood_various (G8, 2048X2048)
+[2020.09.17-00.16.45:352][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.09.17-00.16.45:362][  0]LogTexture: Display: Building textures: T_muzzle_flashes (AutoDXT, 128X256)
+[2020.09.17-00.16.45:362][  0]LogTexture: Display: Building textures: T_SparkCore_2X2 (BGRA8, 2048X2048)
+[2020.09.17-00.16.45:362][  0]LogTexture: Display: Building textures: T_EFX_Beam_Electricity_02 (DXT1, 128X64)
+[2020.09.17-00.16.45:362][  0]LogTexture: Display: Building textures: T_FX_ColorDistort (AutoDXT, 64X256)
+[2020.09.17-00.16.45:362][  0]LogTexture: Display: Building textures: T_FX_CameraDistort (AutoDXT, 256X256)
+[2020.09.17-00.16.45:362][  0]LogTexture: Display: Building textures: T_Caustics_2 (DXT1, 512X512)
+[2020.09.17-00.16.45:566][  0]LogTexture: Display: Building textures: T_raindrop_splash_NRM (BC5, 256X256)
+[2020.09.17-00.16.45:566][  0]LogTexture: Display: Building textures: T_raindrop_splash (AutoDXT, 256X256)
+[2020.09.17-00.16.45:566][  0]LogTexture: Display: Building textures: T_raindrop_normal (BC5, 256X256)
+[2020.09.17-00.16.45:566][  0]LogTexture: Display: Building textures: T_raindrop (AutoDXT, 256X256)
+[2020.09.17-00.16.45:566][  0]LogTexture: Display: Building textures: T_Caustics (AutoDXT, 512X512)
+[2020.09.17-00.16.45:566][  0]LogMaterial: Display: Missing cached shader map for material M_impact_splash_subUV, compiling. 
+[2020.09.17-00.16.45:857][  0]LogTexture: Display: Building textures: T_TilingNoise06_N (BC5, 2048X2048)
+[2020.09.17-00.16.45:857][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 98
+[2020.09.17-00.16.45:857][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 88
+[2020.09.17-00.16.45:857][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 78
+[2020.09.17-00.16.45:857][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 68
+[2020.09.17-00.16.45:857][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 58
+[2020.09.17-00.16.45:857][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 48
+[2020.09.17-00.16.45:857][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 38
+[2020.09.17-00.16.45:857][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 28
+[2020.09.17-00.16.45:857][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 18
+[2020.09.17-00.16.45:857][  0]LogStaticMesh: Building static mesh SM_MuzzleCone...
+[2020.09.17-00.16.45:890][  0]LogStaticMesh: Built static mesh [0.04s] /Game/FPS_Game/Particles/Meshes/SM_MuzzleCone.SM_MuzzleCone
+[2020.09.17-00.16.45:944][  0]LogMaterial: Display: Missing cached shader map for material M_SoftGradient_Muzzle, compiling. 
+[2020.09.17-00.16.45:982][  0]LogMaterial: Display: Missing cached shader map for material M_SmokeBall, compiling. 
+[2020.09.17-00.16.46:328][  0]LogMaterial: Display: Missing cached shader map for material M_MuzzleGlow, compiling. 
+[2020.09.17-00.16.46:376][  0]LogMaterial: Display: Missing cached shader map for material M_muzzle_flash_subUV, compiling. 
+[2020.09.17-00.16.46:405][  0]LogMaterial: Display: Missing cached shader map for material M_Lensflare_01, compiling. 
+[2020.09.17-00.16.46:487][  0]LogMaterial: Display: Missing cached shader map for material M_ImpactSmoke, compiling. 
+[2020.09.17-00.16.46:710][  0]LogMaterial: Display: Missing cached shader map for material M_spark_subUV, compiling. 
+[2020.09.17-00.16.46:736][  0]LogMaterial: Display: Missing cached shader map for material M_radial_ramp_soft, compiling. 
+[2020.09.17-00.16.46:757][  0]LogMaterial: Display: Missing cached shader map for material M_MuzzleSmokeDetail_GPU, compiling. 
+[2020.09.17-00.16.46:785][  0]LogMaterial: Display: Missing cached shader map for material M_LensFlare_02, compiling. 
+[2020.09.17-00.16.46:815][  0]LogMaterial: Display: Missing cached shader map for material Decal_Bullet_Impact, compiling. 
+[2020.09.17-00.16.46:909][  0]LogStaticMesh: Building static mesh FirstPersonProjectileMesh...
+[2020.09.17-00.16.46:919][  0]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Game/Weapons/FPProjectile/FirstPersonProjectileMesh.FirstPersonProjectileMesh
+[2020.09.17-00.16.47:003][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Reload_Rifle_Ironsights.Reload_Rifle_Ironsights
+[2020.09.17-00.16.47:003][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2020.09.17-00.16.47:003][  0]LogStaticMesh: Building static mesh SM_Teleporter...
+[2020.09.17-00.16.47:043][  0]LogStaticMesh: Built static mesh [0.04s] /Game/FPS_Game/Blueprints/Bonus/LevelDesign/Geometry/SM_Teleporter.SM_Teleporter
+[2020.09.17-00.16.47:057][  0]LogMaterial: Display: Missing cached shader map for material M_Water_01, compiling. 
+[2020.09.17-00.16.47:248][  0]LogMaterial: Display: Missing cached shader map for material Decal_M_Caustics, compiling. 
+[2020.09.17-00.16.47:391][  0]LogMaterial: Display: Missing cached shader map for material M_ShooterGame_Rifle_BottomPart, compiling. 
+[2020.09.17-00.16.47:426][  0]LogMaterial: Display: Missing cached shader map for material M_ShooterGame_Rifle, compiling. 
+[2020.09.17-00.16.47:466][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Rifle...
+[2020.09.17-00.16.47:551][  0]LogSkeletalMesh: Built Skeletal Mesh [0.09s] /Game/FPS_Game/Weapons/FPWeapon/Mesh/SK_Rifle.SK_Rifle
+[2020.09.17-00.16.47:569][  0]LogMaterial: Display: Missing cached shader map for material Decal_M_FakeShadow, compiling. 
+[2020.09.17-00.16.47:613][  0]LogMaterial: Display: Missing cached shader map for material PP_OutlineCustomDepth, compiling. 
+[2020.09.17-00.16.47:630][  0]LogMaterial: Display: Missing cached shader map for material M_ColorBase, compiling. 
+[2020.09.17-00.16.47:673][  0]LogMaterial: Display: Missing cached shader map for material M_White_Plastic, compiling. 
+[2020.09.17-00.16.47:716][  0]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2020.09.17-00.16.47:808][  0]LogMaterial: Display: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2020.09.17-00.16.47:854][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Weapon_Laser...
+[2020.09.17-00.16.47:940][  0]LogSkeletalMesh: Section 0: 1421 vertices, 1 active bones
+[2020.09.17-00.16.47:940][  0]LogSkeletalMesh: Section 1: 32 vertices, 1 active bones
+[2020.09.17-00.16.47:940][  0]LogSkeletalMesh: Section 2: 4 vertices, 1 active bones
+[2020.09.17-00.16.47:940][  0]LogSkeletalMesh: Section 3: 305 vertices, 1 active bones
+[2020.09.17-00.16.47:941][  0]LogSkeletalMesh: Section 4: 1382 vertices, 1 active bones
+[2020.09.17-00.16.47:941][  0]LogSkeletalMesh: Section 5: 138 vertices, 1 active bones
+[2020.09.17-00.16.47:941][  0]LogSkeletalMesh: Section 6: 75 vertices, 1 active bones
+[2020.09.17-00.16.47:941][  0]LogSkeletalMesh: Section 0: Material=0, 1326 triangles
+[2020.09.17-00.16.47:941][  0]LogSkeletalMesh: Section 1: Material=1, 26 triangles
+[2020.09.17-00.16.47:941][  0]LogSkeletalMesh: Section 2: Material=2, 2 triangles
+[2020.09.17-00.16.47:942][  0]LogSkeletalMesh: Section 3: Material=3, 412 triangles
+[2020.09.17-00.16.47:942][  0]LogSkeletalMesh: Section 4: Material=4, 1570 triangles
+[2020.09.17-00.16.47:942][  0]LogSkeletalMesh: Section 5: Material=5, 256 triangles
+[2020.09.17-00.16.47:942][  0]LogSkeletalMesh: Section 6: Material=6, 96 triangles
+[2020.09.17-00.16.47:962][  0]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/FPS_Game/Weapons/Laser/SK_Weapon_Laser.SK_Weapon_Laser
+[2020.09.17-00.16.47:987][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot01...
+[2020.09.17-00.16.47:989][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot01.AssaultRifle_Shot01 will be modified from 80 to 80.
+[2020.09.17-00.16.48:057][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 138090 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot01.AssaultRifle_Shot01.
+[2020.09.17-00.16.48:089][  0]LogMaterial: Display: Missing cached shader map for material M_Emmisive, compiling. 
+[2020.09.17-00.16.48:155][  0]LogMaterial: Display: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2020.09.17-00.16.48:237][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Soft, compiling. 
+[2020.09.17-00.16.48:387][  0]LogMaterial: Display: Missing cached shader map for material M_FPGun, compiling. 
+[2020.09.17-00.16.48:500][  0]LogSkeletalMesh: Building Skeletal Mesh SK_FPGun...
+[2020.09.17-00.16.48:581][  0]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/FPS_Game/Weapons/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2020.09.17-00.16.48:787][  0]LogMaterial: Display: Missing cached shader map for material M_WP_ShockRifle_Panning_Beam, compiling. 
+[2020.09.17-00.16.48:812][  0]LogMaterial: Display: Missing cached shader map for material M_WP_Linkgun_Connection, compiling. 
+[2020.09.17-00.16.48:856][  0]LogStaticMesh: Building static mesh SM_Infil1_Infil3_v3_Bullet_Case...
+[2020.09.17-00.16.48:860][  0]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Game/Particles/Meshes/SM_Infil1_Infil3_v3_Bullet_Case.SM_Infil1_Infil3_v3_Bullet_Case
+[2020.09.17-00.16.48:865][  0]LogMaterial: Display: Missing cached shader map for material BaseMaterial, compiling. 
+[2020.09.17-00.16.49:058][  0]LogMaterial: Display: Missing cached shader map for material M_raindrop_splash, compiling. 
+[2020.09.17-00.16.49:099][  0]LogMaterial: Display: Missing cached shader map for material M_raindrop, compiling. 
+[2020.09.17-00.16.49:128][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Launcher...
+[2020.09.17-00.16.49:241][  0]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/FPS_Game/Weapons/FPWeapon/Mesh/SK_Launcher.SK_Launcher
+[2020.09.17-00.16.49:243][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Gun_Shot_Real04a...
+[2020.09.17-00.16.49:245][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_Real/Gun_Shot_Real04a.Gun_Shot_Real04a will be modified from 80 to 80.
+[2020.09.17-00.16.49:291][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 370724 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_Real/Gun_Shot_Real04a.Gun_Shot_Real04a.
+[2020.09.17-00.16.49:293][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_ImpactConcrete02...
+[2020.09.17-00.16.49:294][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete02.Weapon_AssaultRifle_ImpactConcrete02 will be modified from 80 to 80.
+[2020.09.17-00.16.49:315][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 128374 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete02.Weapon_AssaultRifle_ImpactConcrete02.
+[2020.09.17-00.16.49:321][  0]LogMaterial: Display: Missing cached shader map for material M_WP_LinkGun_MF_3_new, compiling. 
+[2020.09.17-00.16.49:359][  0]LogMaterial: Display: Missing cached shader map for material M_Nothing, compiling. 
+[2020.09.17-00.16.49:453][  0]LogMaterial: Display: Missing cached shader map for material M_Deep_Purple, compiling. 
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Idle_Pistol.Idle_Pistol
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Idle_Rifle_Ironsights.Crouch_Idle_Rifle_Ironsights
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Jump_From_Stand_Ironsights.Jump_From_Stand_Ironsights
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Launcher_Reload_SG.Launcher_Reload_SG
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Animations/ThirdPersonWalk.ThirdPersonWalk
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights
+[2020.09.17-00.16.49:549][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Animations/ThirdPersonIdle.ThirdPersonIdle
+[2020.09.17-00.16.49:549][  0]LogSkeletalMesh: Building Skeletal Mesh SK_RichProtoPistol3...
+[2020.09.17-00.16.49:563][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Game/Weapons/FPWeapon/Mesh/SK_RichProtoPistol3.SK_RichProtoPistol3
+[2020.09.17-00.16.49:656][  0]LogMaterial: Display: Missing cached shader map for material M_WP_ShockRifle_Ring, compiling. 
+[2020.09.17-00.16.49:695][  0]LogMaterial: Display: Missing cached shader map for material M_explosion_subUV_Blue, compiling. 
+[2020.09.17-00.16.49:859][  0]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2020.09.17-00.16.50:521][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2020.09.17-00.16.50:521][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Animations/ThirdPersonRun.ThirdPersonRun
+[2020.09.17-00.16.53:326][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1702
+[2020.09.17-00.16.53:886][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1701
+[2020.09.17-00.16.53:886][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1700
+[2020.09.17-00.16.53:886][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1699
+[2020.09.17-00.16.54:441][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1698
+[2020.09.17-00.16.54:441][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1697
+[2020.09.17-00.16.54:441][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1696
+[2020.09.17-00.16.54:441][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1695
+[2020.09.17-00.16.54:441][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1694
+[2020.09.17-00.16.55:017][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1693
+[2020.09.17-00.16.55:017][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1692
+[2020.09.17-00.16.55:017][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1691
+[2020.09.17-00.16.55:017][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1690
+[2020.09.17-00.16.55:017][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1689
+[2020.09.17-00.16.55:579][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1688
+[2020.09.17-00.16.55:579][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1687
+[2020.09.17-00.16.55:579][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1686
+[2020.09.17-00.16.55:579][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1685
+[2020.09.17-00.16.55:579][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1684
+[2020.09.17-00.16.55:579][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1683
+[2020.09.17-00.16.56:139][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1682
+[2020.09.17-00.16.56:139][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1681
+[2020.09.17-00.16.56:139][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1680
+[2020.09.17-00.16.56:139][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1679
+[2020.09.17-00.16.56:139][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1678
+[2020.09.17-00.16.56:139][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1677
+[2020.09.17-00.16.56:700][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1676
+[2020.09.17-00.16.56:700][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1675
+[2020.09.17-00.16.56:700][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1674
+[2020.09.17-00.16.56:700][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1673
+[2020.09.17-00.16.56:700][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1672
+[2020.09.17-00.16.56:700][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1671
+[2020.09.17-00.16.56:700][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1670
+[2020.09.17-00.16.57:261][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1669
+[2020.09.17-00.16.57:261][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1668
+[2020.09.17-00.16.57:261][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1667
+[2020.09.17-00.16.57:261][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1666
+[2020.09.17-00.16.57:261][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1665
+[2020.09.17-00.16.57:261][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1664
+[2020.09.17-00.16.57:261][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1663
+[2020.09.17-00.16.57:261][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1662
+[2020.09.17-00.16.57:261][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1661
+[2020.09.17-00.16.57:822][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1660
+[2020.09.17-00.16.57:822][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1659
+[2020.09.17-00.16.57:822][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1658
+[2020.09.17-00.16.57:822][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1657
+[2020.09.17-00.16.57:822][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1656
+[2020.09.17-00.16.57:822][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1655
+[2020.09.17-00.16.57:822][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1654
+[2020.09.17-00.16.57:822][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1653
+[2020.09.17-00.16.58:383][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1652
+[2020.09.17-00.16.58:383][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1651
+[2020.09.17-00.16.58:383][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1650
+[2020.09.17-00.16.58:383][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1649
+[2020.09.17-00.16.58:383][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1648
+[2020.09.17-00.16.58:383][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1647
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1646
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1645
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1644
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1643
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1642
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1641
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1640
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1639
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1638
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1637
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1636
+[2020.09.17-00.16.58:944][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1635
+[2020.09.17-00.16.59:505][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1634
+[2020.09.17-00.16.59:505][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1633
+[2020.09.17-00.16.59:505][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1632
+[2020.09.17-00.16.59:505][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1631
+[2020.09.17-00.16.59:505][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1630
+[2020.09.17-00.16.59:505][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1629
+[2020.09.17-00.16.59:505][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1628
+[2020.09.17-00.17.00:066][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1627
+[2020.09.17-00.17.00:066][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1626
+[2020.09.17-00.17.00:066][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1625
+[2020.09.17-00.17.00:066][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1624
+[2020.09.17-00.17.00:066][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1623
+[2020.09.17-00.17.00:066][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1622
+[2020.09.17-00.17.00:066][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1621
+[2020.09.17-00.17.00:066][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1620
+[2020.09.17-00.17.00:627][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1619
+[2020.09.17-00.17.00:627][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1618
+[2020.09.17-00.17.00:627][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1617
+[2020.09.17-00.17.00:627][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1616
+[2020.09.17-00.17.00:627][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1615
+[2020.09.17-00.17.00:627][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1614
+[2020.09.17-00.17.00:627][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1613
+[2020.09.17-00.17.01:188][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1612
+[2020.09.17-00.17.01:188][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1602
+[2020.09.17-00.17.01:188][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1592
+[2020.09.17-00.17.01:188][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1582
+[2020.09.17-00.17.01:188][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1572
+[2020.09.17-00.17.01:188][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1562
+[2020.09.17-00.17.01:188][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1552
+[2020.09.17-00.17.01:188][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1542
+[2020.09.17-00.17.01:556][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1532
+[2020.09.17-00.17.01:577][  0]LogStaticMesh: Building static mesh SM_OceanWater...
+[2020.09.17-00.17.01:618][  0]LogStaticMesh: Built static mesh [0.04s] /Game/FPS_Game/Blueprints/Bonus/Water/Materials/SM_OceanWater.SM_OceanWater
+[2020.09.17-00.17.01:648][  0]LogMaterial: Display: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2020.09.17-00.17.01:710][  0]LogMaterial: Display: Missing cached shader map for material M_Radial_Gradient_UFO, compiling. 
+[2020.09.17-00.17.01:734][  0]LogMaterial: Display: Missing cached shader map for material M_Impact_Ripple, compiling. 
+[2020.09.17-00.17.01:787][  0]LogMaterial: Display: Missing cached shader map for material M_Particle_Ribbon, compiling. 
+[2020.09.17-00.17.01:816][  0]LogStaticMesh: Building static mesh SM_JumpPad...
+[2020.09.17-00.17.01:836][  0]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Game/Blueprints/Bonus/LevelDesign/Geometry/SM_JumpPad.SM_JumpPad
+[2020.09.17-00.17.01:841][  0]LogStaticMesh: Building static mesh SM_Barrel...
+[2020.09.17-00.17.01:862][  0]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Game/Blueprints/Bonus/AI/Other/SM_Barrel/SM_Barrel.SM_Barrel
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Sprint_Fwd_Rifle_NoSound.Sprint_Fwd_Rifle_NoSound
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Jog_DiagL_Rifle.Jog_DiagL_Rifle
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Swimming/ThirdPersonSwim_Forward.ThirdPersonSwim_Forward
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2020.09.17-00.17.01:904][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Idle_Rifle_Hip_Break1.Idle_Rifle_Hip_Break1
+[2020.09.17-00.17.01:904][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin_Arms...
+[2020.09.17-00.17.01:997][  0]LogSkeletalMesh: Built Skeletal Mesh [0.09s] /Game/FPS_Game/Character/FPP/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2020.09.17-00.17.02:003][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.17-00.17.02:084][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.17-00.17.02:154][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2020.09.17-00.17.02:154][  0]LogMaterial: Display: Missing cached shader map for material M_Electrical, compiling. 
+[2020.09.17-00.17.02:177][  0]LogMaterial: Display: Missing cached shader map for material M_explosion_SubUV_NoOpacity, compiling. 
+[2020.09.17-00.17.02:204][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2020.09.17-00.17.02:375][  0]LogSkeletalMesh: Built Skeletal Mesh [0.17s] /Game/FPS_Game/Character/TPP/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.09.17-00.17.02:390][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2020.09.17-00.17.02:390][  0]LogMaterial: Display: Missing cached shader map for material Decal_Bullet_Impact_WithNormal, compiling. 
+[2020.09.17-00.17.02:423][  0]LogSkeletalMesh: Building Skeletal Mesh SK_FPGun_NoScope...
+[2020.09.17-00.17.02:474][  0]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/FPS_Game/Weapons/FPWeapon/Mesh/SK_FPGun_NoScope.SK_FPGun_NoScope
+[2020.09.17-00.17.02:481][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Pistol_Auto...
+[2020.09.17-00.17.02:525][  0]LogSkeletalMesh: Section 0: 1288 vertices, 2 active bones
+[2020.09.17-00.17.02:526][  0]LogSkeletalMesh: Section 1: 813 vertices, 2 active bones
+[2020.09.17-00.17.02:526][  0]LogSkeletalMesh: Section 0: Material=0, 1418 triangles
+[2020.09.17-00.17.02:526][  0]LogSkeletalMesh: Section 1: Material=1, 790 triangles
+[2020.09.17-00.17.02:536][  0]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/FPS_Game/Weapons/Pistol/SK_Pistol_Auto.SK_Pistol_Auto
+[2020.09.17-00.17.02:539][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave FoleyBody_BodyMove04...
+[2020.09.17-00.17.02:540][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Aiming/FoleyBody_BodyMove04.FoleyBody_BodyMove04 will be modified from 80 to 80.
+[2020.09.17-00.17.02:556][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 57210 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Aiming/FoleyBody_BodyMove04.FoleyBody_BodyMove04.
+[2020.09.17-00.17.02:562][  0]LogSkeletalMesh: Building Skeletal Mesh S_Sword_Basic...
+[2020.09.17-00.17.02:566][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Game/Weapons/FPWeapon/Sword/S_Sword_Basic.S_Sword_Basic
+[2020.09.17-00.17.02:583][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave BodyMove_Push01...
+[2020.09.17-00.17.02:583][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/BodyMove_Push01.BodyMove_Push01 will be modified from 80 to 80.
+[2020.09.17-00.17.02:599][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 82358 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/BodyMove_Push01.BodyMove_Push01.
+[2020.09.17-00.17.02:609][  0]LogMaterial: Display: Missing cached shader map for material PP_M_UnderWater, compiling. 
+[2020.09.17-00.17.02:615][  0]LogSkeletalMesh: Building Skeletal Mesh SK_HeavyVehicle...
+[2020.09.17-00.17.02:744][  0]LogSkeletalMesh: Built Skeletal Mesh [0.13s] /Game/FPS_Game/Blueprints/Bonus/Vehicles/HeavyVehicle/SK_HeavyVehicle.SK_HeavyVehicle
+[2020.09.17-00.17.02:774][  0]LogMaterial: Display: Missing cached shader map for material M_Grid, compiling. 
+[2020.09.17-00.17.02:826][  0]LogMaterial: Display: Missing cached shader map for material M_Barrel, compiling. 
+[2020.09.17-00.17.02:842][  0]LogMaterial: Display: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2020.09.17-00.17.02:886][  0]LogSkeletalMesh: Building Skeletal Mesh SK_ProtoAssault...
+[2020.09.17-00.17.02:907][  0]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/FPS_Game/Weapons/FPWeapon/Mesh/ProtoRifle/SK_ProtoAssault.SK_ProtoAssault
+[2020.09.17-00.17.02:918][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Loot_Chest...
+[2020.09.17-00.17.02:928][  0]LogSkeletalMesh: Section 0: 204 vertices, 1 active bones
+[2020.09.17-00.17.02:928][  0]LogSkeletalMesh: Section 1: 224 vertices, 1 active bones
+[2020.09.17-00.17.02:928][  0]LogSkeletalMesh: Section 2: 120 vertices, 1 active bones
+[2020.09.17-00.17.02:928][  0]LogSkeletalMesh: Section 0: Material=0, 252 triangles
+[2020.09.17-00.17.02:928][  0]LogSkeletalMesh: Section 1: Material=1, 316 triangles
+[2020.09.17-00.17.02:928][  0]LogSkeletalMesh: Section 2: Material=2, 60 triangles
+[2020.09.17-00.17.02:930][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Game/Blueprints/Bonus/LevelDesign/Chest/SK_Loot_Chest.SK_Loot_Chest
+[2020.09.17-00.17.02:934][  0]LogSkeletalMesh: Building Skeletal Mesh LightVehicle_SkelMesh...
+[2020.09.17-00.17.03:041][  0]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/FPS_Game/Blueprints/Bonus/Vehicles/LightVehicle/LightVehicle_SkelMesh.LightVehicle_SkelMesh
+[2020.09.17-00.17.03:059][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_Swap02...
+[2020.09.17-00.17.03:059][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Swap02.Weapon_AssaultRifle_Swap02 will be modified from 80 to 80.
+[2020.09.17-00.17.03:077][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 68338 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Swap02.Weapon_AssaultRifle_Swap02.
+[2020.09.17-00.17.03:077][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_Swap01...
+[2020.09.17-00.17.03:077][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Swap01.Weapon_AssaultRifle_Swap01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:091][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 52866 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Swap01.Weapon_AssaultRifle_Swap01.
+[2020.09.17-00.17.03:091][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_Swap03...
+[2020.09.17-00.17.03:091][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Swap03.Weapon_AssaultRifle_Swap03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:103][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 43480 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Swap03.Weapon_AssaultRifle_Swap03.
+[2020.09.17-00.17.03:104][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave FoleyBody_Land04...
+[2020.09.17-00.17.03:104][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Landed/FoleyBody_Land04.FoleyBody_Land04 will be modified from 80 to 80.
+[2020.09.17-00.17.03:122][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 106800 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Landed/FoleyBody_Land04.FoleyBody_Land04.
+[2020.09.17-00.17.03:123][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave FoleyBody_Land03...
+[2020.09.17-00.17.03:123][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Landed/FoleyBody_Land03.FoleyBody_Land03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:141][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 103734 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Landed/FoleyBody_Land03.FoleyBody_Land03.
+[2020.09.17-00.17.03:141][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Impact_Punch_Harder03...
+[2020.09.17-00.17.03:142][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/Impact_Punch_Harder03.Impact_Punch_Harder03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:158][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 66960 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/Impact_Punch_Harder03.Impact_Punch_Harder03.
+[2020.09.17-00.17.03:159][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Impact_Punch_Harder02...
+[2020.09.17-00.17.03:159][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/Impact_Punch_Harder02.Impact_Punch_Harder02 will be modified from 80 to 80.
+[2020.09.17-00.17.03:172][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 49608 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/Impact_Punch_Harder02.Impact_Punch_Harder02.
+[2020.09.17-00.17.03:173][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Impact_Punch_Harder01...
+[2020.09.17-00.17.03:173][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/Impact_Punch_Harder01.Impact_Punch_Harder01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:187][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 57530 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/Impact_Punch_Harder01.Impact_Punch_Harder01.
+[2020.09.17-00.17.03:187][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Impact_Punch_Harder04...
+[2020.09.17-00.17.03:188][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/Impact_Punch_Harder04.Impact_Punch_Harder04 will be modified from 80 to 80.
+[2020.09.17-00.17.03:203][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 66234 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/FightMatinee/Impact_Punch_Harder04.Impact_Punch_Harder04.
+[2020.09.17-00.17.03:204][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave FoleyFlesh_Gib01...
+[2020.09.17-00.17.03:204][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Other/FoleyFlesh_Gib01.FoleyFlesh_Gib01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:225][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 109552 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Other/FoleyFlesh_Gib01.FoleyFlesh_Gib01.
+[2020.09.17-00.17.03:226][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Water_FootstepLayer02...
+[2020.09.17-00.17.03:226][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Water/Water_FootstepLayer02.Water_FootstepLayer02 will be modified from 80 to 80.
+[2020.09.17-00.17.03:238][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 40966 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Water/Water_FootstepLayer02.Water_FootstepLayer02.
+[2020.09.17-00.17.03:239][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Water_FootstepLayer04...
+[2020.09.17-00.17.03:239][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Water/Water_FootstepLayer04.Water_FootstepLayer04 will be modified from 80 to 80.
+[2020.09.17-00.17.03:252][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 36480 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Water/Water_FootstepLayer04.Water_FootstepLayer04.
+[2020.09.17-00.17.03:253][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Water_FootstepLayer03...
+[2020.09.17-00.17.03:253][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Water/Water_FootstepLayer03.Water_FootstepLayer03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:265][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 38654 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Water/Water_FootstepLayer03.Water_FootstepLayer03.
+[2020.09.17-00.17.03:266][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Water_FootstepLayer01...
+[2020.09.17-00.17.03:266][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Water/Water_FootstepLayer01.Water_FootstepLayer01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:279][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 43434 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Water/Water_FootstepLayer01.Water_FootstepLayer01.
+[2020.09.17-00.17.03:279][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave FoleyBody_BodyMove03...
+[2020.09.17-00.17.03:280][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Aiming/FoleyBody_BodyMove03.FoleyBody_BodyMove03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:297][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 58816 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Aiming/FoleyBody_BodyMove03.FoleyBody_BodyMove03.
+[2020.09.17-00.17.03:297][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave FoleyBody_BodyMove02...
+[2020.09.17-00.17.03:298][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Aiming/FoleyBody_BodyMove02.FoleyBody_BodyMove02 will be modified from 80 to 80.
+[2020.09.17-00.17.03:312][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 54554 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Aiming/FoleyBody_BodyMove02.FoleyBody_BodyMove02.
+[2020.09.17-00.17.03:313][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave FoleyBody_BodyMove01...
+[2020.09.17-00.17.03:314][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Aiming/FoleyBody_BodyMove01.FoleyBody_BodyMove01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:326][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 49184 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Aiming/FoleyBody_BodyMove01.FoleyBody_BodyMove01.
+[2020.09.17-00.17.03:327][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave SFX_Laser...
+[2020.09.17-00.17.03:327][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/SFX_Laser.SFX_Laser will be modified from 40 to 40.
+[2020.09.17-00.17.03:341][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 46246 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/SFX_Laser.SFX_Laser.
+[2020.09.17-00.17.03:343][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot05...
+[2020.09.17-00.17.03:344][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot05.AssaultRifle_Shot05 will be modified from 80 to 80.
+[2020.09.17-00.17.03:371][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 178320 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot05.AssaultRifle_Shot05.
+[2020.09.17-00.17.03:372][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot04...
+[2020.09.17-00.17.03:373][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot04.AssaultRifle_Shot04 will be modified from 80 to 80.
+[2020.09.17-00.17.03:398][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 166562 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot04.AssaultRifle_Shot04.
+[2020.09.17-00.17.03:398][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot03...
+[2020.09.17-00.17.03:399][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot03.AssaultRifle_Shot03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:422][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 166776 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot03.AssaultRifle_Shot03.
+[2020.09.17-00.17.03:422][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot02...
+[2020.09.17-00.17.03:423][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot02.AssaultRifle_Shot02 will be modified from 80 to 80.
+[2020.09.17-00.17.03:449][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 172986 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot02.AssaultRifle_Shot02.
+[2020.09.17-00.17.03:449][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot06...
+[2020.09.17-00.17.03:450][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot06.AssaultRifle_Shot06 will be modified from 80 to 80.
+[2020.09.17-00.17.03:477][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 176970 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_Shot06.AssaultRifle_Shot06.
+[2020.09.17-00.17.03:477][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_Empty01...
+[2020.09.17-00.17.03:477][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Empty01.Weapon_AssaultRifle_Empty01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:490][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 43832 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Empty01.Weapon_AssaultRifle_Empty01.
+[2020.09.17-00.17.03:490][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_Empty02...
+[2020.09.17-00.17.03:491][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Empty02.Weapon_AssaultRifle_Empty02 will be modified from 80 to 80.
+[2020.09.17-00.17.03:504][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 52694 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Empty02.Weapon_AssaultRifle_Empty02.
+[2020.09.17-00.17.03:505][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_Empty03...
+[2020.09.17-00.17.03:505][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Empty03.Weapon_AssaultRifle_Empty03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:518][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 51968 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_Empty03.Weapon_AssaultRifle_Empty03.
+[2020.09.17-00.17.03:519][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_ImpactConcrete01...
+[2020.09.17-00.17.03:519][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete01.Weapon_AssaultRifle_ImpactConcrete01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:541][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 127046 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete01.Weapon_AssaultRifle_ImpactConcrete01.
+[2020.09.17-00.17.03:542][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_ImpactConcrete03...
+[2020.09.17-00.17.03:543][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete03.Weapon_AssaultRifle_ImpactConcrete03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:570][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 142274 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete03.Weapon_AssaultRifle_ImpactConcrete03.
+[2020.09.17-00.17.03:570][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_ImpactConcrete04...
+[2020.09.17-00.17.03:571][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete04.Weapon_AssaultRifle_ImpactConcrete04 will be modified from 80 to 80.
+[2020.09.17-00.17.03:595][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 121172 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete04.Weapon_AssaultRifle_ImpactConcrete04.
+[2020.09.17-00.17.03:595][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_ImpactConcrete05...
+[2020.09.17-00.17.03:595][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete05.Weapon_AssaultRifle_ImpactConcrete05 will be modified from 80 to 80.
+[2020.09.17-00.17.03:623][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 110172 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete05.Weapon_AssaultRifle_ImpactConcrete05.
+[2020.09.17-00.17.03:624][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_ImpactConcrete06...
+[2020.09.17-00.17.03:624][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete06.Weapon_AssaultRifle_ImpactConcrete06 will be modified from 80 to 80.
+[2020.09.17-00.17.03:645][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 120698 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete06.Weapon_AssaultRifle_ImpactConcrete06.
+[2020.09.17-00.17.03:646][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_AmmoPickup01...
+[2020.09.17-00.17.03:646][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_AmmoPickup01.Weapon_AssaultRifle_AmmoPickup01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:664][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 81996 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_AmmoPickup01.Weapon_AssaultRifle_AmmoPickup01.
+[2020.09.17-00.17.03:665][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_AmmoPickup02...
+[2020.09.17-00.17.03:665][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_AmmoPickup02.Weapon_AssaultRifle_AmmoPickup02 will be modified from 80 to 80.
+[2020.09.17-00.17.03:683][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 87972 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_AmmoPickup02.Weapon_AssaultRifle_AmmoPickup02.
+[2020.09.17-00.17.03:684][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_AmmoPickup03...
+[2020.09.17-00.17.03:684][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_AmmoPickup03.Weapon_AssaultRifle_AmmoPickup03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:702][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 84392 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_AmmoPickup03.Weapon_AssaultRifle_AmmoPickup03.
+[2020.09.17-00.17.03:702][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Footstep_Generic01...
+[2020.09.17-00.17.03:702][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Running/Footstep_Generic01.Footstep_Generic01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:715][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 50072 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Running/Footstep_Generic01.Footstep_Generic01.
+[2020.09.17-00.17.03:715][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Footstep_Generic02...
+[2020.09.17-00.17.03:716][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Running/Footstep_Generic02.Footstep_Generic02 will be modified from 80 to 80.
+[2020.09.17-00.17.03:729][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 42500 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Running/Footstep_Generic02.Footstep_Generic02.
+[2020.09.17-00.17.03:731][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Footstep_Generic04...
+[2020.09.17-00.17.03:731][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Running/Footstep_Generic04.Footstep_Generic04 will be modified from 80 to 80.
+[2020.09.17-00.17.03:743][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 35904 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/CharacterRelated/Running/Footstep_Generic04.Footstep_Generic04.
+[2020.09.17-00.17.03:744][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_ShotEnd06...
+[2020.09.17-00.17.03:745][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd06.AssaultRifle_ShotEnd06 will be modified from 80 to 80.
+[2020.09.17-00.17.03:768][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 157692 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd06.AssaultRifle_ShotEnd06.
+[2020.09.17-00.17.03:769][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_ShotEnd05...
+[2020.09.17-00.17.03:770][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd05.AssaultRifle_ShotEnd05 will be modified from 80 to 80.
+[2020.09.17-00.17.03:793][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 164042 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd05.AssaultRifle_ShotEnd05.
+[2020.09.17-00.17.03:794][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_ShotEnd04...
+[2020.09.17-00.17.03:795][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd04.AssaultRifle_ShotEnd04 will be modified from 80 to 80.
+[2020.09.17-00.17.03:816][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 136130 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd04.AssaultRifle_ShotEnd04.
+[2020.09.17-00.17.03:817][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_ShotEnd03...
+[2020.09.17-00.17.03:819][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd03.AssaultRifle_ShotEnd03 will be modified from 80 to 80.
+[2020.09.17-00.17.03:840][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 152476 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd03.AssaultRifle_ShotEnd03.
+[2020.09.17-00.17.03:841][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_ShotEnd02...
+[2020.09.17-00.17.03:842][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd02.AssaultRifle_ShotEnd02 will be modified from 80 to 80.
+[2020.09.17-00.17.03:866][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 158394 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd02.AssaultRifle_ShotEnd02.
+[2020.09.17-00.17.03:867][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_ShotEnd01...
+[2020.09.17-00.17.03:867][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd01.AssaultRifle_ShotEnd01 will be modified from 80 to 80.
+[2020.09.17-00.17.03:888][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 128010 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_AssaultRifle/Mono/AssaultRifle_ShotEnd01.AssaultRifle_ShotEnd01.
+[2020.09.17-00.17.03:888][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Gun_Shot_Real04c...
+[2020.09.17-00.17.03:890][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_Real/Gun_Shot_Real04c.Gun_Shot_Real04c will be modified from 80 to 80.
+[2020.09.17-00.17.03:945][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 366054 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_Real/Gun_Shot_Real04c.Gun_Shot_Real04c.
+[2020.09.17-00.17.03:952][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Gun_Shot_Real04d...
+[2020.09.17-00.17.03:954][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_Real/Gun_Shot_Real04d.Gun_Shot_Real04d will be modified from 80 to 80.
+[2020.09.17-00.17.04:006][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 382774 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_Real/Gun_Shot_Real04d.Gun_Shot_Real04d.
+[2020.09.17-00.17.04:006][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Gun_Shot_Real04b...
+[2020.09.17-00.17.04:008][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_Real/Gun_Shot_Real04b.Gun_Shot_Real04b will be modified from 80 to 80.
+[2020.09.17-00.17.04:066][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 423018 while cooking SoundWave /Game/FPS_Game/Sounds/SFX/Weapon_Real/Gun_Shot_Real04b.Gun_Shot_Real04b.
+[2020.09.17-00.17.04:288][  0]LogAIModule: Creating AISystem for world Testing
+[2020.09.17-00.17.04:291][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000267E454D800), frame # 0
+[2020.09.17-00.17.04:296][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000267F3756D40), frame # 0
+[2020.09.17-00.17.04:843][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.17-00.17.05:213][  0]LogUObjectHash: Compacting FUObjectHashTables data took  18.03ms
+[2020.09.17-00.17.05:233][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.17-00.17.05:237][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.506ms to complete.
+[2020.09.17-00.17.05:237][  0]LogFileHelpers: Loading map 'Testing' took 33.448
+[2020.09.17-00.17.05:462][  0]LogUnrealEdMisc: Total Editor Startup Time, took 42.476
+[2020.09.17-00.17.06:004][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.17-00.17.06:019][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.17-00.17.06:036][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.17-00.17.06:052][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.17-00.17.06:348][  0]LogCollectionManager: Loaded 0 collections in 0.006623 seconds
+[2020.09.17-00.17.06:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Saved/Collections/' took 0.00s
+[2020.09.17-00.17.06:467][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2095
+[2020.09.17-00.17.06:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Content/Developers/qwert/Collections/' took 0.00s
+[2020.09.17-00.17.06:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Content/Collections/' took 0.00s
+[2020.09.17-00.17.06:467][  0]LogContentBrowser: Native class hierarchy populated in 0.0461 seconds. Added 3427 classes and 821 folders.
+[2020.09.17-00.17.06:507][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.09.17-00.17.07:458][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2085
+[2020.09.17-00.17.07:459][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2075
+[2020.09.17-00.17.07:459][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.09.17-00.17.07:474][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 2 classes and 0 folders.
+[2020.09.17-00.17.07:650][  0]LogSlate: Took 0.001554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.17-00.17.07:660][  0]LogSlate: Took 0.001649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.17-00.17.07:698][  0]LogSlate: Took 0.017382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.17-00.17.08:060][  0]LogRenderer: Reallocating scene render targets to support 1004x456 Format 10 NumSamples 1 (Frame:1).
+[2020.09.17-00.17.08:991][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2065
+[2020.09.17-00.17.08:991][  0]LogSlate: Window 'Tutorials' being destroyed
+[2020.09.17-00.17.09:078][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.09.17-00.17.09:080][  0]LogLoad: (Engine Initialization) Total time: 46.09 seconds
+[2020.09.17-00.17.09:080][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.17-00.17.09:198][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Idle_Sitting_Sedan.Idle_Sitting_Sedan
+[2020.09.17-00.17.09:198][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Blueprints/Bonus/LevelDesign/Chest/SK_Loot_Chest_Anim.SK_Loot_Chest_Anim
+[2020.09.17-00.17.09:198][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.17-00.17.09:269][  0]LogSlate: Took 0.017643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.17-00.17.09:281][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2055
+[2020.09.17-00.17.09:480][  2]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/ThirdPersonMeleeUnarmed.ThirdPersonMeleeUnarmed
+[2020.09.17-00.17.09:480][  2]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Melee.FirstPerson_Melee
+[2020.09.17-00.17.09:587][  3]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Equipping/FPP_LowerWeaponPistol.FPP_LowerWeaponPistol
+[2020.09.17-00.17.09:587][  3]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/ActionRPG/Anim_Axe_Combat_Swing.Anim_Axe_Combat_Swing
+[2020.09.17-00.17.09:592][  3]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Equipping/FPP_RaiseWeaponPistol.FPP_RaiseWeaponPistol
+[2020.09.17-00.17.09:593][  3]LogAssetRegistry: Asset discovery search completed in 41.8039 seconds
+[2020.09.17-00.17.09:601][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.09.17-00.17.09:715][  5]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Pistol/FirstPerson_Fire_ADS_Pistol.FirstPerson_Fire_ADS_Pistol
+[2020.09.17-00.17.09:715][  5]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Pistol/FirstPerson_Reload_Pistol.FirstPerson_Reload_Pistol
+[2020.09.17-00.17.09:723][  6]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Reload_Pistol.Reload_Pistol
+[2020.09.17-00.17.09:993][ 11]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Equip_Pistol_Standing.Equip_Pistol_Standing
+[2020.09.17-00.17.09:993][ 11]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Weapons/Pistol/SK_Pistol_Auto_Skeleton_Firing.SK_Pistol_Auto_Skeleton_Firing
+[2020.09.17-00.17.10:022][ 12]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPersonReload_Shotgun_Ironsights.FirstPersonReload_Shotgun_Ironsights
+[2020.09.17-00.17.10:849][ 13]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2045
+[2020.09.17-00.17.10:849][ 13]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2035
+[2020.09.17-00.17.10:968][ 13]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Equip.FirstPerson_Equip
+[2020.09.17-00.17.10:968][ 13]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Reload_Shotgun_Ironsights.Reload_Shotgun_Ironsights
+[2020.09.17-00.17.11:048][ 14]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_MeleeV2.FirstPerson_MeleeV2
+[2020.09.17-00.17.11:147][ 16]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Throw.FirstPerson_Throw
+[2020.09.17-00.17.11:230][ 21]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Death_3.Death_3
+[2020.09.17-00.17.11:329][ 26]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Unarmed/FirstPerson_MeleeV3unarmed.FirstPerson_MeleeV3unarmed
+[2020.09.17-00.17.11:352][ 27]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/ThirdPersonMelee.ThirdPersonMelee
+[2020.09.17-00.17.11:372][ 28]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Idle_Sitting_Elbow.Idle_Sitting_Elbow
+[2020.09.17-00.17.11:506][ 33]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2020.09.17-00.17.11:689][ 40]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2025
+[2020.09.17-00.17.11:777][ 45]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Jog_DiagR_Rifle.Jog_DiagR_Rifle
+[2020.09.17-00.17.11:806][ 47]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2020.09.17-00.17.11:934][ 51]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2020.09.17-00.17.11:935][ 51]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2020.09.17-00.17.12:008][ 54]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights
+[2020.09.17-00.17.12:089][ 57]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights
+[2020.09.17-00.17.12:115][ 58]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2020.09.17-00.17.12:192][ 61]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2020.09.17-00.17.12:333][ 67]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Unused/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2020.09.17-00.17.12:399][ 70]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Animations/ThirdPersonClimbIdle.ThirdPersonClimbIdle
+[2020.09.17-00.17.12:414][ 71]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Animations/ThirdPersonClimbLoop.ThirdPersonClimbLoop
+[2020.09.17-00.17.12:414][ 71]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Fire_Auto.FirstPerson_Fire_Auto
+[2020.09.17-00.17.12:437][ 72]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Pistol/FirstPerson_Fire_Pistol.FirstPerson_Fire_Pistol
+[2020.09.17-00.17.12:458][ 73]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/ActionRPG/Sword_Run_Forward.Sword_Run_Forward
+[2020.09.17-00.17.12:458][ 73]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2015
+[2020.09.17-00.17.12:549][ 77]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Sprint_Fwd_Rifle_L.Sprint_Fwd_Rifle_L
+[2020.09.17-00.17.12:611][ 80]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Sprint_Fwd_Rifle_R.Sprint_Fwd_Rifle_R
+[2020.09.17-00.17.12:667][ 83]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/ActionRPG/Anim_Sword_Idle.Anim_Sword_Idle
+[2020.09.17-00.17.12:967][ 98]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/ActionRPG/Sword_Walk_Foward.Sword_Walk_Foward
+[2020.09.17-00.17.12:967][ 98]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_ADS.FirstPerson_ADS
+[2020.09.17-00.17.13:094][102]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_ADS_Steady.FirstPerson_ADS_Steady
+[2020.09.17-00.17.13:118][103]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_JumpEnd.FirstPerson_JumpEnd
+[2020.09.17-00.17.13:130][104]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_JumpLoop.FirstPerson_JumpLoop
+[2020.09.17-00.17.13:130][104]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_JumpStart.FirstPerson_JumpStart
+[2020.09.17-00.17.13:162][105]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_NearWallV2.FirstPerson_NearWallV2
+[2020.09.17-00.17.13:233][108]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Sprint.FirstPerson_Sprint
+[2020.09.17-00.17.13:278][109]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Pistol/FirstPerson_ADS_Pistol.FirstPerson_ADS_Pistol
+[2020.09.17-00.17.13:292][110]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Pistol/FirstPerson_ADS_PistolSteady.FirstPerson_ADS_PistolSteady
+[2020.09.17-00.17.13:307][111]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Unarmed/FirstPerson_IDLE_HANDS_DOWN.FirstPerson_IDLE_HANDS_DOWN
+[2020.09.17-00.17.13:436][117]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2005
+[2020.09.17-00.17.13:436][117]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Unarmed/FirstPerson_IDLE_HANDS_DOWN_WALK.FirstPerson_IDLE_HANDS_DOWN_WALK
+[2020.09.17-00.17.13:495][119]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1995
+[2020.09.17-00.17.13:689][127]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Unarmed/FirstPersonJump_Loop_Unarmed.FirstPersonJump_Loop_Unarmed
+[2020.09.17-00.17.13:689][127]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Unarmed/FirstPersonJump_End_Unarmed.FirstPersonJump_End_Unarmed
+[2020.09.17-00.17.13:763][129]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Unarmed/FirstPersonJump_Start_Unarmed.FirstPersonJump_Start_Unarmed
+[2020.09.17-00.17.13:825][132]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Unarmed/FirstPersonRunUnarmed.FirstPersonRunUnarmed
+[2020.09.17-00.17.13:958][137]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Idle.FirstPerson_Idle
+[2020.09.17-00.17.13:991][139]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Run.FirstPerson_Run
+[2020.09.17-00.17.14:022][141]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_RunRight.FirstPerson_RunRight
+[2020.09.17-00.17.14:022][141]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_RunLeft.FirstPerson_RunLeft
+[2020.09.17-00.17.14:085][143]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Swim/FirstPersonSwim_Loop.FirstPersonSwim_Loop
+[2020.09.17-00.17.14:111][144]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Equipping/FPP_LowerWeaponRifle.FPP_LowerWeaponRifle
+[2020.09.17-00.17.14:125][145]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/Equipping/FPP_RaiseWeaponRifle.FPP_RaiseWeaponRifle
+[2020.09.17-00.17.14:129][145]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1985
+[2020.09.17-00.17.14:182][147]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Fire_ADS.FirstPerson_Fire_ADS
+[2020.09.17-00.17.14:182][147]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Rifle_Reload.FirstPerson_Rifle_Reload
+[2020.09.17-00.17.14:193][148]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/FPP/Animations/FirstPerson_Fire.FirstPerson_Fire
+[2020.09.17-00.17.14:315][150]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Equip_Rifle_Standing.Equip_Rifle_Standing
+[2020.09.17-00.17.14:463][157]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FPS_Game/Character/TPP/AnimStarterPack/Fire_Rifle_Hip.Fire_Rifle_Hip
+[2020.09.17-00.17.20:033][402]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1975
+[2020.09.17-00.17.20:065][402]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1965
+[2020.09.17-00.17.21:305][452]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1955
+[2020.09.17-00.17.21:852][475]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1945
+[2020.09.17-00.17.22:522][504]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1935
+[2020.09.17-00.17.23:657][561]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1925
+[2020.09.17-00.17.24:192][590]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.17-00.17.24:216][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.17-00.17.24:236][590]PIE: New page: PIE session: Testing (Sep 16, 2020, 4:17:24 PM)
+[2020.09.17-00.17.24:249][590]LogOnline: OSS: Creating online subsystem instance for: Null
+[2020.09.17-00.17.24:259][590]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [Null]
+[2020.09.17-00.17.24:261][590]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2020.09.17-00.17.24:396][590]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1915
+[2020.09.17-00.17.24:396][590]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1905
+[2020.09.17-00.17.24:412][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150969s)
+[2020.09.17-00.17.24:416][590]LogAIModule: Creating AISystem for world Testing
+[2020.09.17-00.17.24:416][590]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000267D96BBE00), frame # 590
+[2020.09.17-00.17.24:417][590]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026802625BC0), frame # 590
+[2020.09.17-00.17.24:419][590]LogPlayLevel: PIE: World Init took: (0.006469s)
+[2020.09.17-00.17.24:419][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/Testing.Testing to /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing (0.158838s)
+[2020.09.17-00.17.24:444][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.09.17-00.17.24:463][590]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.17-00.17.24:463][590]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.17-00.17.24:463][590]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.17-00.17.24:463][590]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.17-00.17.24:463][590]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.17-00.17.24:463][590]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.17-00.17.24:463][590]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.17-00.17.24:463][590]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.17-00.17.24:467][590]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.17-00.17.24:467][590]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.17-00.17.24:481][590]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.17-00.17.24:481][590]LogAudioMixer: Display: 1: FrontRight
+[2020.09.17-00.17.24:551][590]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.17-00.17.24:551][590]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.17-00.17.24:551][590]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.17-00.17.24:552][590]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.17-00.17.24:556][590]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.17-00.17.24:621][590]LogInit: FAudioDevice initialized.
+[2020.09.17-00.17.24:649][590]LogLoad: Game class is 'BP_GameMode_C'
+[2020.09.17-00.17.24:702][590]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2020.09.16-20.17.24
+[2020.09.17-00.17.24:723][590]LogWorld: Bringing up level for play took: 0.067680
+[2020.09.17-00.17.24:725][590]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.09.17-00.17.24:750][590]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 20 classes and 0 folders.
+[2020.09.17-00.17.24:822][590]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2020.09.17-00.17.24:845][590]PIE: Server logged in
+[2020.09.17-00.17.24:851][590]PIE: Play in editor total start time 0.641 seconds.
+[2020.09.17-00.17.28:307][702]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1895
+[2020.09.17-00.17.31:850][828]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1885
+[2020.09.17-00.17.31:961][832]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1875
+[2020.09.17-00.17.32:238][845]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1865
+[2020.09.17-00.17.32:501][855]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1855
+[2020.09.17-00.17.32:900][869]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1845
+[2020.09.17-00.17.32:972][871]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1835
+[2020.09.17-00.17.34:649][937]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1825
+[2020.09.17-00.17.34:686][938]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1815
+[2020.09.17-00.17.38:133][ 68]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1805
+[2020.09.17-00.17.39:596][122]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1795
+[2020.09.17-00.17.39:874][131]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1785
+[2020.09.17-00.17.40:102][139]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1775
+[2020.09.17-00.17.40:901][169]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1765
+[2020.09.17-00.17.41:000][173]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1755
+[2020.09.17-00.17.41:794][206]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1745
+[2020.09.17-00.17.42:925][250]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1735
+[2020.09.17-00.17.45:639][347]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1725
+[2020.09.17-00.17.50:566][525]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1715
+[2020.09.17-00.17.53:346][632]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1705
+[2020.09.17-00.17.53:658][644]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1695
+[2020.09.17-00.18.07:656][110]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1685
+[2020.09.17-00.18.09:469][167]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1675
+[2020.09.17-00.18.19:020][445]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1665
+[2020.09.17-00.18.21:923][523]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1655
+[2020.09.17-00.18.22:977][551]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1645
+[2020.09.17-00.18.28:172][696]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1635
+[2020.09.17-00.18.31:119][787]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1625
+[2020.09.17-00.18.32:776][845]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1615
+[2020.09.17-00.18.35:532][932]LogBlueprintUserMessages: [BPC_MoneyPickUpLarge_254] 20  MONEY  ADDED
+[2020.09.17-00.18.35:844][943]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1605
+[2020.09.17-00.18.38:332][ 28]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1595
+[2020.09.17-00.18.39:998][ 84]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1585
+[2020.09.17-00.18.41:110][120]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1575
+[2020.09.17-00.18.42:936][178]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1565
+[2020.09.17-00.18.43:943][202]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1555
+[2020.09.17-00.18.44:332][216]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1545
+[2020.09.17-00.18.48:249][339]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1535
+[2020.09.17-00.18.48:308][341]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1525
+[2020.09.17-00.18.48:825][355]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1515
+[2020.09.17-00.18.49:099][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.17-00.18.49:099][357]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2020.09.17-00.18.49:102][357]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.09.17-00.18.49:111][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.17-00.18.49:136][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.17-00.18.49:149][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.17-00.18.49:278][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.17-00.18.49:294][357]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026802625BC0), frame # 3357
+[2020.09.17-00.18.49:294][357]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000267D96BBE00), frame # 3357
+[2020.09.17-00.18.49:306][357]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2020.09.17-00.18.49:394][358]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.09.17-00.18.54:995][597]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1505
+[2020.09.17-00.18.56:288][656]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1495
+[2020.09.17-00.18.56:388][660]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1485
+[2020.09.17-00.18.56:518][666]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1475
+[2020.09.17-00.18.56:538][667]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1465
+[2020.09.17-00.18.59:677][803]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1455
+[2020.09.17-00.18.59:743][805]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1445
+[2020.09.17-00.18.59:911][811]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1435
+[2020.09.17-00.19.02:118][881]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1425
+[2020.09.17-00.19.05:072][970]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1415
+[2020.09.17-00.19.05:098][971]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1405
+[2020.09.17-00.19.06:580][  7]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1395
+[2020.09.17-00.19.07:205][ 16]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1385
+[2020.09.17-00.19.07:369][ 19]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1375
+[2020.09.17-00.19.07:672][ 24]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1365
+[2020.09.17-00.19.10:892][ 81]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1355
+[2020.09.17-00.19.11:510][ 93]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1345
+[2020.09.17-00.19.24:342][323]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1335
+[2020.09.17-00.19.25:054][343]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1325
+[2020.09.17-00.19.27:539][389]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1315
+[2020.09.17-00.19.36:128][609]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1305
+[2020.09.17-00.19.44:780][829]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1295
+[2020.09.17-00.19.45:439][844]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1285
+[2020.09.17-00.19.48:826][939]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1275
+[2020.09.17-00.19.53:507][ 66]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1265
+[2020.09.17-00.19.53:664][ 70]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1255
+[2020.09.17-00.19.53:875][ 74]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1245
+[2020.09.17-00.19.57:275][165]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1235
+[2020.09.17-00.20.02:342][306]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1225
+[2020.09.17-00.20.02:390][308]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1215
+[2020.09.17-00.20.03:293][329]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1205
+[2020.09.17-00.20.04:603][367]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1195
+[2020.09.17-00.20.05:457][388]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1185
+[2020.09.17-00.20.07:026][426]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1175
+[2020.09.17-00.20.08:805][477]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1165
+[2020.09.17-00.20.11:325][552]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1155
+[2020.09.17-00.20.11:542][559]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1145
+[2020.09.17-00.20.12:520][585]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1135
+[2020.09.17-00.20.12:615][588]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1125
+[2020.09.17-00.20.12:823][594]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1115
+[2020.09.17-00.20.12:892][595]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1105
+[2020.09.17-00.20.17:556][718]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1095
+[2020.09.17-00.20.18:442][742]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1085
+[2020.09.17-00.20.18:873][754]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1075
+[2020.09.17-00.20.19:510][765]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1065
+[2020.09.17-00.20.20:037][780]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1055
+[2020.09.17-00.20.20:660][797]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1045
+[2020.09.17-00.20.22:568][844]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1035
+[2020.09.17-00.20.23:671][876]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1025
+[2020.09.17-00.20.23:797][880]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1015
+[2020.09.17-00.20.24:172][890]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1005
+[2020.09.17-00.20.24:273][891]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 995
+[2020.09.17-00.20.25:011][911]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 985
+[2020.09.17-00.20.26:156][941]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 975
+[2020.09.17-00.20.28:128][989]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 965
+[2020.09.17-00.20.29:032][ 14]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 955
+[2020.09.17-00.20.30:625][ 48]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 945
+[2020.09.17-00.20.30:812][ 53]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 935
+[2020.09.17-00.20.30:922][ 56]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 925
+[2020.09.17-00.20.31:135][ 61]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 915
+[2020.09.17-00.20.32:701][107]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 905
+[2020.09.17-00.20.33:140][121]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 895
+[2020.09.17-00.20.33:232][125]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 885
+[2020.09.17-00.20.37:724][252]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 875
+[2020.09.17-00.20.37:858][255]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 865
+[2020.09.17-00.20.37:990][259]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 855
+[2020.09.17-00.20.38:441][271]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 845
+[2020.09.17-00.20.40:697][321]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 835
+[2020.09.17-00.20.42:399][358]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 825
+[2020.09.17-00.20.42:705][367]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 815
+[2020.09.17-00.20.44:945][423]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 805
+[2020.09.17-00.20.45:013][426]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 795
+[2020.09.17-00.20.45:122][430]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 785
+[2020.09.17-00.20.45:964][449]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 775
+[2020.09.17-00.20.46:168][453]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 765
+[2020.09.17-00.20.48:492][509]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 755
+[2020.09.17-00.20.48:668][515]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 745
+[2020.09.17-00.20.50:201][551]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 735
+[2020.09.17-00.20.50:947][562]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 725
+[2020.09.17-00.20.51:152][565]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 715
+[2020.09.17-00.20.52:590][604]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 705
+[2020.09.17-00.20.56:780][715]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 695
+[2020.09.17-00.20.56:817][716]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 685
+[2020.09.17-00.20.58:375][763]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 675
+[2020.09.17-00.20.59:060][779]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 665
+[2020.09.17-00.20.59:116][781]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 655
+[2020.09.17-00.21.00:183][812]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 645
+[2020.09.17-00.21.03:864][911]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 635
+[2020.09.17-00.21.04:118][920]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 625
+[2020.09.17-00.21.04:799][940]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 615
+[2020.09.17-00.21.06:730][  2]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 605
+[2020.09.17-00.21.07:526][ 21]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 595
+[2020.09.17-00.21.07:895][ 33]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 585
+[2020.09.17-00.21.10:046][100]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 575
+[2020.09.17-00.21.10:695][122]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 565
+[2020.09.17-00.21.11:215][139]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 555
+[2020.09.17-00.21.11:490][147]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 545
+[2020.09.17-00.21.12:267][173]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 535
+[2020.09.17-00.21.13:280][202]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 525
+[2020.09.17-00.21.14:273][229]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 515
+[2020.09.17-00.21.15:961][275]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 505
+[2020.09.17-00.21.16:053][277]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 495
+[2020.09.17-00.21.16:077][278]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 485
+[2020.09.17-00.21.17:227][314]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 475
+[2020.09.17-00.21.17:261][315]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 465
+[2020.09.17-00.21.17:637][323]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 455
+[2020.09.17-00.21.19:588][379]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 445
+[2020.09.17-00.21.21:950][455]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 435
+[2020.09.17-00.21.22:168][461]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 425
+[2020.09.17-00.21.22:569][474]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 415
+[2020.09.17-00.21.22:791][479]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 405
+[2020.09.17-00.21.23:270][491]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 395
+[2020.09.17-00.21.23:294][492]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 385
+[2020.09.17-00.21.23:517][499]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 375
+[2020.09.17-00.21.24:288][523]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 365
+[2020.09.17-00.21.27:151][615]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 355
+[2020.09.17-00.21.27:657][631]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 345
+[2020.09.17-00.21.28:179][646]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 335
+[2020.09.17-00.21.29:039][668]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 325
+[2020.09.17-00.21.29:275][675]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 315
+[2020.09.17-00.21.29:989][693]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 305
+[2020.09.17-00.21.30:074][697]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 295
+[2020.09.17-00.21.30:461][708]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 285
+[2020.09.17-00.21.33:486][795]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 275
+[2020.09.17-00.21.33:844][806]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 265
+[2020.09.17-00.21.34:807][835]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 255
+[2020.09.17-00.21.36:170][880]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 245
+[2020.09.17-00.21.36:280][884]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 235
+[2020.09.17-00.21.36:493][892]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 225
+[2020.09.17-00.21.37:479][918]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 215
+[2020.09.17-00.21.38:002][931]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 205
+[2020.09.17-00.21.38:162][933]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 195
+[2020.09.17-00.21.39:541][970]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 185
+[2020.09.17-00.21.40:355][994]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 175
+[2020.09.17-00.21.42:634][ 70]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 165
+[2020.09.17-00.21.43:434][ 96]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 155
+[2020.09.17-00.21.44:127][117]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 145
+[2020.09.17-00.21.44:614][130]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 135
+[2020.09.17-00.21.44:761][133]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 125
+[2020.09.17-00.21.44:780][134]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 115
+[2020.09.17-00.21.45:847][168]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 105
+[2020.09.17-00.21.46:158][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 95
+[2020.09.17-00.21.48:784][256]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 85
+[2020.09.17-00.21.51:390][328]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 75
+[2020.09.17-00.21.52:776][373]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 65
+[2020.09.17-00.21.52:839][375]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 56
+[2020.09.17-00.21.53:422][395]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 48
+[2020.09.17-00.21.53:813][407]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 41
+[2020.09.17-00.21.54:378][425]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
+[2020.09.17-00.21.55:886][473]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 30
+[2020.09.17-00.21.58:033][540]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 26
+[2020.09.17-00.21.58:260][548]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 22
+[2020.09.17-00.21.58:371][551]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 19
+[2020.09.17-00.21.59:145][573]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 16
+[2020.09.17-00.22.00:509][612]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2020.09.17-00.22.00:533][613]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2020.09.17-00.22.00:804][621]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.09.17-00.22.01:229][632]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2020.09.17-00.22.01:833][648]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.09.17-00.22.01:871][649]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.17-00.22.02:147][655]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.09.17-00.22.02:280][658]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.09.17-00.22.02:315][659]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.09.17-00.22.02:704][668]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.09.17-00.24.05:919][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.09.17-00.24.05:931][975]Cmd: MAP LOAD FILE="../../../../../../Users/qwert/OneDrive/Documents/Unreal Projects/FPSGameStarterKit/Content/FPS_Game/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.17-00.24.05:945][975]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.17-00.24.05:974][975]LightingResults: New page: Lighting Build
+[2020.09.17-00.24.05:977][975]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.09.17-00.24.05:988][975]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.09.17-00.24.05:988][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.17-00.24.05:989][975]MapCheck: New page: Map Check
+[2020.09.17-00.24.05:989][975]LightingResults: New page: Lighting Build
+[2020.09.17-00.24.06:022][975]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000267E454D800), frame # 12975
+[2020.09.17-00.24.06:022][975]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000267F3756D40), frame # 12975
+[2020.09.17-00.24.06:025][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.09.17-00.24.06:144][975]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 64X64)
+[2020.09.17-00.24.06:144][975]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 64X64)
+[2020.09.17-00.24.06:144][975]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 64X32)
+[2020.09.17-00.24.06:144][975]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2020.09.17-00.24.06:147][975]LogAIModule: Creating AISystem for world MainMenu
+[2020.09.17-00.24.06:147][975]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026802476E00), frame # 12975
+[2020.09.17-00.24.06:147][975]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000267DB0216C0), frame # 12975
+[2020.09.17-00.24.06:157][975]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.17-00.24.06:177][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.09.17-00.24.06:215][975]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.17-00.24.06:216][975]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.182ms to complete.
+[2020.09.17-00.24.06:216][975]LogFileHelpers: Loading map 'MainMenu' took 0.285
+[2020.09.17-00.24.06:217][975]LogSlate: Window 'Open Level' being destroyed
+[2020.09.17-00.24.08:167][186]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.17-00.24.08:186][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.17-00.24.08:186][186]PIE: New page: PIE session: MainMenu (Sep 16, 2020, 4:24:08 PM)
+[2020.09.17-00.24.08:186][186]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_MainMenu
+[2020.09.17-00.24.08:189][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003299s)
+[2020.09.17-00.24.08:191][186]LogAIModule: Creating AISystem for world MainMenu
+[2020.09.17-00.24.08:191][186]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000267E4E61E00), frame # 13186
+[2020.09.17-00.24.08:191][186]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000267D6C58F40), frame # 13186
+[2020.09.17-00.24.08:191][186]LogPlayLevel: PIE: World Init took: (0.001394s)
+[2020.09.17-00.24.08:191][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/MainMenu.MainMenu to /Game/FPS_Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.004848s)
+[2020.09.17-00.24.08:206][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.09.17-00.24.08:209][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.17-00.24.08:210][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.17-00.24.08:210][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.17-00.24.08:210][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.17-00.24.08:210][186]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.17-00.24.08:210][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.17-00.24.08:210][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.17-00.24.08:210][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.17-00.24.08:210][186]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.17-00.24.08:210][186]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.17-00.24.08:215][186]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.17-00.24.08:215][186]LogAudioMixer: Display: 1: FrontRight
+[2020.09.17-00.24.08:244][186]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.17-00.24.08:245][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.17-00.24.08:245][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.17-00.24.08:245][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.17-00.24.08:246][186]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.17-00.24.08:262][186]LogInit: FAudioDevice initialized.
+[2020.09.17-00.24.08:274][186]LogLoad: Game class is 'BP_MENU_GameMode_C'
+[2020.09.17-00.24.08:275][186]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.09.16-20.24.08
+[2020.09.17-00.24.08:275][186]LogWorld: Bringing up level for play took: 0.000651
+[2020.09.17-00.24.08:276][186]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.09.17-00.24.08:288][186]Cmd: r.SetRes 1920x1080w
+[2020.09.17-00.24.08:305][186]r.SetRes = "1920x1080w"
+[2020.09.17-00.24.08:326][186]PIE: Server logged in
+[2020.09.17-00.24.08:327][186]PIE: Play in editor total start time 0.142 seconds.
+[2020.09.17-00.24.14:270][879]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.09.17-00.24.14:280][879]LogNet: Browse: /Game/FPS_Game/Maps/ReplicatedMap?listen
+[2020.09.17-00.24.14:281][879]LogLoad: LoadMap: /Game/FPS_Game/Maps/ReplicatedMap?listen
+[2020.09.17-00.24.14:281][879]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_MainMenu
+[2020.09.17-00.24.14:282][879]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.09.17-00.24.14:282][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.17-00.24.14:300][879]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000267D6C58F40), frame # 13879
+[2020.09.17-00.24.14:300][879]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000267E4E61E00), frame # 13879
+[2020.09.17-00.24.14:302][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.09.17-00.24.14:969][879]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
+[2020.09.17-00.24.14:969][879]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
+[2020.09.17-00.24.14:971][879]LogStaticMesh: Building static mesh SM_Merchant...
+[2020.09.17-00.24.15:853][879]LogStaticMesh: Built static mesh [0.88s] /Game/FPS_Game/Blueprints/Bonus/Replication/Interactive/Shop/SM_Merchant.SM_Merchant
+[2020.09.17-00.24.16:069][879]LogAIModule: Creating AISystem for world ReplicatedMap
+[2020.09.17-00.24.16:069][879]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000267F6C32200), frame # 13879
+[2020.09.17-00.24.16:069][879]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000267D8B17100), frame # 13879
+[2020.09.17-00.24.16:070][879]LogLoad: Game class is 'Replicated_GameMode_TDM_C'
+[2020.09.17-00.24.16:076][879]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.09.17-00.24.16:077][879]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.09.17-00.24.16:078][879]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.09.17-00.24.16:078][879]LogNet: Created socket for bind address: 0.0.0.0 on port 7777
+[2020.09.17-00.24.16:080][879]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.09.17-00.24.16:080][879]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2020.09.17-00.24.16:107][879]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_ReplicatedMap.ReplicatedMap up for play (max tick rate 0) at 2020.09.16-20.24.16
+[2020.09.17-00.24.16:108][879]LogWorld: Bringing up level for play took: 0.027270
+[2020.09.17-00.24.16:111][879]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.09.17-00.24.16:121][879]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.09.17-00.24.16:123][879]LogLoad: Took 1.842264 seconds to LoadMap(/Game/FPS_Game/Maps/ReplicatedMap)
+[2020.09.17-00.24.18:036][ 66]LogBlueprintUserMessages: [Replicated_PlayerController_C_0] Server:  has joined Blue Team
+[2020.09.17-00.24.22:758][584]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.09.17-00.24.23:627][584]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.868 s
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: === Handled ensure: ===
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: 
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: Ensure condition failed: NumChildren == MyChildren->Num() [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/SlateCore/Private/Widgets/SWidget.cpp] [Line: 1470]
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: 
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: Stack: 
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b9f0509 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858c2c UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b858b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff81b86463d UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff820f5880d UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff820f2959b UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff820f5a25a UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff820f80af0 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff820f80024 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff78ae08735 UE4Editor.exe!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff78ae1ba7c UE4Editor.exe!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff78ae1bb5a UE4Editor.exe!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff78ae2e31d UE4Editor.exe!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff78ae3145a UE4Editor.exe!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff894bb7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: [Callstack] 0x00007ff894d0ce51 ntdll.dll!UnknownFunction []
+[2020.09.17-00.24.23:628][584]LogOutputDevice: Error: 
